@@ -1,6 +1,52 @@
-site_name: Restaurant Booking Documentation Style Guide
+site_name: Стайлгайд документации
 site_description: Руководство по стилю документации сервиса бронирования ресторанов
 repo_url: https://github.com/Ezhidzee/style-guide-project
+repo_name: Ezhidzee/style-guide-project
+edit_uri: edit/main/docs/
+theme:
+  name: material
+  language: ru
+  font: false
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Включить тёмную тему
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Включить светлую тему
+  icon:
+    repo: fontawesome/brands/github
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+extra_css:
+  - stylesheets/extra.css
 nav:
   - Главная: index.md
   - Общие принципы: general.md
