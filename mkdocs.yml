@@ -1,0 +1,15 @@
+site_name: Restaurant Booking Documentation Style Guide
+site_description: Руководство по стилю документации сервиса бронирования ресторанов
+repo_url: https://github.com/Ezhidzee/style-guide-project
+nav:
+  - Главная: index.md
+  - Общие принципы: general.md
+  - Язык и терминология: language.md
+  - Структура документов: structure.md
+  - Markdown и оформление: formatting.md
+  - Техническая документация: technical.md
+  - Глоссарий: terminology.md
+  - Примеры:
+      - Локальный запуск: examples/local-development.md
+      - Создание бронирования через API: examples/create-booking.md
+
