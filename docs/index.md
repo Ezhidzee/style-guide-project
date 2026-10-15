@@ -21,3 +21,4 @@
 - [Markdown и оформление](formatting.md)
 - [Техническая документация](technical.md)
 - [Глоссарий](terminology.md)
+- [Доступность текста](accessibility.md)
