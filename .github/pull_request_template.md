@@ -7,4 +7,3 @@
 - [ ] Markdown lint
 - [ ] `python -m mkdocs build --strict`
 - [ ] Проверен локальный сайт
-

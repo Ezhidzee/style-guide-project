@@ -34,4 +34,3 @@ npx --yes markdownlint-cli@0.45.0 "**/*.md" "#site"
 python -m mkdocs build --strict
 git diff --check
 ```
-
