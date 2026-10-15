@@ -26,43 +26,43 @@
 
 <div class="grid cards" markdown>
 
--   :material-compass-outline: **[Общие принципы](general.md)**
+- :material-compass-outline: **[Общие принципы](general.md)**
 
     ---
 
     Как определить читателя, поддерживать точность и актуальность страницы.
 
--   :material-format-text: **[Язык и терминология](language.md)**
+- :material-format-text: **[Язык и терминология](language.md)**
 
     ---
 
     Как писать ясно, последовательно и без неоднозначных формулировок.
 
--   :material-file-document-outline: **[Структура документов](structure.md)**
+- :material-file-document-outline: **[Структура документов](structure.md)**
 
     ---
 
     Шаблоны how-to, reference, API-страниц и инструкций разработчика.
 
--   :material-language-markdown-outline: **[Markdown и оформление](formatting.md)**
+- :material-language-markdown-outline: **[Markdown и оформление](formatting.md)**
 
     ---
 
     Заголовки, ссылки, блоки кода, изображения и предупреждения.
 
--   :material-api: **[Техническая документация](technical.md)**
+- :material-api: **[Техническая документация](technical.md)**
 
     ---
 
     Правила для API, конфигурации, ошибок, логов и безопасных примеров.
 
--   :material-book-alphabet: **[Глоссарий](terminology.md)**
+- :material-book-alphabet: **[Глоссарий](terminology.md)**
 
     ---
 
     Единые названия доменных сущностей сервиса.
 
--   :material-human: **[Доступность текста](accessibility.md)**
+- :material-human: **[Доступность текста](accessibility.md)**
 
     ---
 
