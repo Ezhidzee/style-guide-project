@@ -9,6 +9,7 @@ nav:
   - Markdown и оформление: formatting.md
   - Техническая документация: technical.md
   - Глоссарий: terminology.md
+  - Доступность текста: accessibility.md
   - Примеры:
       - Локальный запуск: examples/local-development.md
       - Создание бронирования через API: examples/create-booking.md
