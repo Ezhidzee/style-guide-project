@@ -8,6 +8,7 @@ theme:
   language: ru
   font: false
   features:
+    - navigation.tabs
     - navigation.sections
     - navigation.top
     - navigation.footer
@@ -51,13 +52,13 @@ extra_css:
   - stylesheets/extra.css
 nav:
   - Главная: index.md
-  - Общие принципы: general.md
-  - Язык и терминология: language.md
-  - Структура документов: structure.md
-  - Markdown и оформление: formatting.md
-  - API, конфигурация и данные: technical.md
+  - Принципы: general.md
+  - Язык: language.md
+  - Структура: structure.md
+  - Оформление: formatting.md
+  - API и данные: technical.md
   - Глоссарий: terminology.md
-  - Доступность текста: accessibility.md
+  - Доступность: accessibility.md
   - Практика:
       - Локальный запуск: examples/local-development.md
       - Создание бронирования через API: examples/create-booking.md
