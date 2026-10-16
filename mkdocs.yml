@@ -8,7 +8,6 @@ theme:
   language: ru
   font: false
   features:
-    - navigation.tabs
     - navigation.sections
     - navigation.top
     - navigation.footer
@@ -45,6 +44,9 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 extra_css:
   - stylesheets/extra.css
 nav:
@@ -53,10 +55,10 @@ nav:
   - Язык и терминология: language.md
   - Структура документов: structure.md
   - Markdown и оформление: formatting.md
-  - Техническая документация: technical.md
+  - API, конфигурация и данные: technical.md
   - Глоссарий: terminology.md
   - Доступность текста: accessibility.md
-  - Примеры:
+  - Практика:
       - Локальный запуск: examples/local-development.md
       - Создание бронирования через API: examples/create-booking.md
 
